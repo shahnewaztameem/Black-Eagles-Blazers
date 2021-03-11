@@ -35,19 +35,19 @@ const TeamDetails = () => {
               <div className="row individual-info-card mt-4 p-4 d-flex justify-content-center align-items-center">
                 <div className="col-md-6">
                   <h2 className="team-name mb-3">{team.strTeam}</h2>
-                  <h6 className="team-founded">
+                  <h6 className="team-founded mb-3">
                     <FontAwesomeIcon icon={faMapMarkedAlt} /> {' '}
                     Founded: {team.intFormedYear}
                   </h6>
-                  <h6 className="team-country">
+                  <h6 className="team-country mb-3">
                     <FontAwesomeIcon icon={faFlag} /> {' '}
                     Country: {team.strCountry}
                   </h6>
-                  <h6 className="team-sports-type">
+                  <h6 className="team-sports-type mb-3">
                     <FontAwesomeIcon icon={faFutbol} /> {' '}
                     Sport Type: {team.strSport}
                   </h6>
-                  <h6 className="team-gender">
+                  <h6 className="team-gender mb-3">
                     {team.strGender.toLowerCase() === 'male' ? <FontAwesomeIcon icon={faMars} /> : <FontAwesomeIcon icon={faVenus} />}{' '}
                     Gender: {team.strGender}
                   </h6>

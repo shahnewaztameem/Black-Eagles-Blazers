@@ -58,3 +58,7 @@ span {
   transform: translateX(0);
   transition: transform 350ms 360ms ease;
 }
+
+.card-title {
+  font-weight: bold;
+}

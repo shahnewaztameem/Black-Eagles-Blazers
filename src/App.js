@@ -6,6 +6,7 @@ import {
   Route
 } from "react-router-dom";
 import TeamDetails from './Components/TeamDetails/TeamDetails';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
         <Route exact path="/">
           <Home />
+        </Route>
+
+        <Route path="*">
+          <NotFound />
         </Route>
       </Switch>
     </Router>
