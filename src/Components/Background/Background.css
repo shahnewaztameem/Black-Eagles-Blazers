@@ -1,0 +1,11 @@
+.hero-text {
+  padding-top: 150px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.individual-team-image img {
+  display: block;
+  margin: auto;
+  width: 250px;
+}

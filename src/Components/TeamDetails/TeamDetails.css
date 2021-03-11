@@ -1,0 +1,17 @@
+.individual-info-card {
+  background-color: #3A42FF;
+  border-radius: 10px;
+  color: #fff;
+}
+.team-name {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.team-description {
+  text-align: justify;
+}
+
+.fb-icon {
+  font-size: 40px;
+}
